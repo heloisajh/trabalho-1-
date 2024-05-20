@@ -101,7 +101,7 @@ class TelaMovimentacao(Tela):
         return None
 
     def mostrar_movimentacao(self, dados_movimentacao):
-        dia_mes_ano = dados_movimentacoes["data"].strftime("%d/%m/%Y")
+        dia_mes_ano = dados_movimentacao["data"].strftime("%d/%m/%Y")
         print("\n")
         print("Código: ", dados_movimentacao["codigo"])
         print("Data: ", dia_mes_ano)

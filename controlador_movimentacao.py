@@ -33,7 +33,7 @@ class ControladorMovimentacao:
                                                                 "fornecedor_pagador": movimentacao.fornecedor_pagador.nome})
         else:
             self.__tela_movimentacao.mostrar_mensagem("Você só pode visualizar suas movimentações, se registrar ao menos uma movimentação.")
-        self.visualizar_saldo_atual()
+        self.visualizar_saldo_total()
 
     def adicionar_movimentacao(self):
 
